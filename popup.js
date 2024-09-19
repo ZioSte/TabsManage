@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     document.getElementById('dividitab').addEventListener('click', () => {
+        // alert('cliccato dividitab')
         // Carica e esegui dividitab.js
         import('./dividitab.js')
             .then(module => {
@@ -9,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('ragruppatab').addEventListener('click', () => {
+        // alert('cliccato ragruppatab')
         // Carica e esegui ragruppatab.js
         import('./ragruppatab.js')
             .then(module => {

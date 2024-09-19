@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Plugin Multi-Funzione</title>
+    <style>
+        * { box-sizing: border-box; }
+        .btn {
+            margin: .5em;
+            padding: .5em;
+        }
+        .main-win {
+            min-width: 15em;
+        }
+    </style>
 </head>
-<body>
-    <h1>Scegli un'azione</h1>
-    <button id="dividitab">Dividi Tab x Dominio</button>
-    <button id="ragruppatab">Raggruppa Tab</button>
-    <script src="popup.js" ></script>
-</body>
+    <body class="main-win">
+        <h1>Scegli un'azione</h1>
+        <button id="dividitab" class="btn">Dividi Tab x Dominio</button>
+        <button id="ragruppatab" class="btn">Raggruppa Tab</button>
+        <script src="popup.js" ></script>
+    </body>
 </html>
